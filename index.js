@@ -9,9 +9,8 @@ const getRandomInt = (min, max) => {
 };
 
 const markCommit = (x, y) => {
-    const date = moment()
-        .subtract(1, "y")
-        .add(1, "d")
+    // Base date set to January 1, 2023
+    const date = moment("2023-01-01")
         .add(x, "w")
         .add(y, "d")
         .format();
@@ -28,9 +27,9 @@ const markCommit = (x, y) => {
 const makeCommits = (n) => {
     if (n === 0) return simpleGit().push();
 
-    const x = getRandomInt(0, 54);
-    const y = getRandomInt(0, 6);
-    const date = moment().subtract(1, "y").add(1, "d").add(x, "w").add(y, "d").format();
+    const x = getRandomInt(0, 52); // 52 weeks in a year
+    const y = getRandomInt(0, 6); // 7 days in a week
+    const date = moment("2023-01-01").add(x, "w").add(y, "d").format();
 
     const data = {
         date: date,
@@ -43,4 +42,5 @@ const makeCommits = (n) => {
     });
 };
 
-makeCommits(100);
+// Generate commits for the year 2023
+makeCommits(50);
