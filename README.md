@@ -1,6 +1,7 @@
 # GitHub Bot 🤖
+![Robut](https://github.com/user-attachments/assets/c6f92c50-9bde-460f-81da-dc550e7540fa)
 
-![GitHub Bot](https://www.google.com/imgres?q=github%20bot&imgurl=https%3A%2F%2Frepository-images.githubusercontent.com%2F156847937%2F2ac66980-0f3d-11eb-8e62-693087aa1f67&imgrefurl=https%3A%2F%2Fgithub.com%2Ftopics%2Fcrypto-bot&docid=bMScQvJLeKV7aM&tbnid=6jtOt5BBhlqzlM&vet=12ahUKEwjol4LP9OOKAxUxk1YBHa3SAc8QM3oECF0QAA..i&w=1500&h=1500&hcb=2&ved=2ahUKEwjol4LP9OOKAxUxk1YBHa3SAc8QM3oECF0QAA)  <!-- Replace with your own image URL -->
+![GitHub Bot]()  <!-- Replace with your own image URL -->
 
 This repository contains an **automated GitHub bot** that commits changes to your repository on a regular basis. It generates **random commit dates**, modifies a `data.json` file, and simulates activity on your GitHub project.
 
@@ -17,7 +18,7 @@ This repository contains an **automated GitHub bot** that commits changes to you
 
 Here’s a quick demo of the bot in action! 🎥
 
-![GitHub Bot Demo]([https://media.giphy.com/media/abc1234/giphy.gif])  <!-- Replace with your own demo GIF -->
+![Robot GIF](https://media.giphy.com/media/Yb568GGmZxoiLntbqm/giphy.gif)  
 
 ---
 
