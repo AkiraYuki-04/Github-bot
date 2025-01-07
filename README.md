@@ -72,3 +72,25 @@ Go to [GitHub  Tokens  <https://github.com/settings/tokens>].
 Create a new token with repo scope.
 
 Use this token in your git remote set-url command.
+
+Usage 🚀
+Once everything is set up, you can run the bot script to make commits:
+
+-node index.js
+
+The bot will make multiple commits to the data.json file with random commit dates within the last year. You can configure the number of commits in the script, such as makeCommits(100) to make 100 commits.
+
+
+
+
+⚠️ Disclaimer
+This project is provided "as is" without any warranties or guarantees. By using this bot, you agree to the following:
+
+Use at Your Own Risk
+The bot automates Git operations, including committing and pushing to repositories. Ensure you fully understand its functionality before using it in your GitHub repositories.
+
+Responsibility
+The author is not liable for any issues, including but not limited to accidental data loss, misuse, or violations of GitHub's terms of service. Test thoroughly in a non-critical environment before using this bot.
+
+Compliance with GitHub's Terms of Service
+Using this bot to artificially manipulate your GitHub contribution graph or commit history may violate GitHub's Terms of Service. This bot is intended for educational and testing purposes only. Use responsibly.
