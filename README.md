@@ -3,20 +3,20 @@
 
 ![GitHub Bot]()  <!-- Replace with your own image URL -->
 
-This repository contains an **automated GitHub bot** that commits changes to your repository on a regular basis. It generates **random commit dates**, modifies a `data.json` file, and simulates activity on your GitHub project.
+This repository contains an **automated GitHub bot** that commits changes to your repository on a regular basis. It generates **random commit dates**, modifies a 'data.json' file, and simulates activity on your GitHub project.
 
 > _Want to make your repo look active with frequent commits? This bot is for you!_
 
 ## Features 🎉
 
 - Automatically makes commits to a GitHub repository.
-- **Random commit dates** are generated over the last year using the `moment.js` library.
-- Commits are made to a `data.json` file that is tracked by Git.
+- **Random commit dates** are generated over the last year using the `moment.js' library.
+- Commits are made to a `data.json' file that is tracked by Git.
 - Customizable number of commits to simulate activity.
 
-## Demo GIF 🎬
+## Demo
 
-Here’s a quick demo of the bot in action! 🎥
+Here’s a quick demo of the bot in action!
 
 ![Robot GIF](https://media.giphy.com/media/Yb568GGmZxoiLntbqm/giphy.gif)  
 
